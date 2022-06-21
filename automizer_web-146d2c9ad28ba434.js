@@ -714,7 +714,7 @@ function initSync(bytes) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('automizer_web-19ca9525d5b2ae4_bg.wasm', import.meta.url);
+        input = new URL('automizer_web-146d2c9ad28ba434_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
